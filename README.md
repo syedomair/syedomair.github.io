@@ -1,2 +1,2 @@
-# software.team.github.io
-Software Team
+# syedoamir.github.io
+Syed Omair Software developer
