@@ -29,18 +29,7 @@
             margin: auto;
         }
 
-        .abs-center {
-            display: false;
-            position: absolute;
-            margin: false;
-            top: 50%;
-            left: 50%;
-            right: false;
-            bottom: false;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            width: 88%;
-        }
+
 
         body {
             font-family: 'Open Sans';
@@ -107,22 +96,7 @@
             color: #fff;
         }
 
-        .name {
-            display: false;
-            position: absolute;
-            margin: false;
-            top: false;
-            left: calc(350px + 5%);
-            right: 0;
-            bottom: 0;
-            height: 120px;
-            text-align: center;
-            font-family: 'Raleway';
-            font-size: 58px;
-            letter-spacing: 8px;
-            font-weight: 900;
-            line-height: 60px;
-        }
+
 
         .name div {
             width: 94%;
@@ -166,7 +140,7 @@
 
         .side-bar {
             display: false;
-            position: absolute;
+            position: relative;
             margin: false;
             top: 60px;
             left: 5%;
@@ -176,7 +150,7 @@
             width: 100%;
             background-color: #f7e0c1;
             padding: 200px 30px 50px;
-            order: 2;
+            order: 1;
         }
 
         .content-container {
@@ -184,7 +158,37 @@
             /*width: calc(95% - 350px);*/
             width: 100%;
             padding: 25px 40px 50px;
-            order: 1;
+            order: 2;
+        }
+
+        .abs-center {
+            display: false;
+            position: relative;
+            margin: false;
+            top: 50%;
+            left: 50%;
+            right: false;
+            bottom: false;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 88%;
+        }
+
+        .name {
+            display: false;
+            position: relative;
+            margin: false;
+            top: false;
+            /*left: calc(350px + 5%);*/
+            right: 0;
+            bottom: 0;
+            height: 120px;
+            text-align: center;
+            font-family: 'Raleway';
+            font-size: 58px;
+            letter-spacing: 8px;
+            font-weight: 900;
+            line-height: 60px;
         }
 
         @media (min-width: 768px) {
@@ -211,6 +215,36 @@
                 order: 2;
                 width: calc(100% - 418px);
                 order: 2;
+            }
+
+            .abs-center {
+                display: false;
+                position: absolute;
+                margin: false;
+                top: 50%;
+                left: 50%;
+                right: false;
+                bottom: false;
+                transform: translate(-50%, -50%);
+                text-align: center;
+                width: 88%;
+            }
+
+            .name {
+                display: false;
+                position: absolute;
+                margin: false;
+                top: false;
+                left: calc(350px + 5%);
+                right: 0;
+                bottom: 0;
+                height: 120px;
+                text-align: center;
+                font-family: 'Raleway';
+                font-size: 58px;
+                letter-spacing: 8px;
+                font-weight: 900;
+                line-height: 60px;
             }
         }
 
